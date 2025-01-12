@@ -1,14 +1,10 @@
 package com.github.MakWigglz.economicIndicators;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class EconomicIndicatorsApp {
     private static final String ALPHA_VANTAGE_API_URL = "https://www.alphavantage.co/query";
